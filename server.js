@@ -57,7 +57,7 @@ app.delete('/delete/:id' , async (req,res)=>{
   }
 })
 
-// POST route to add employee data
+//  POST route to add employee data
 app.post('/employees', async (req, res) => {
   try {
     const employee = new Employee(req.body);
